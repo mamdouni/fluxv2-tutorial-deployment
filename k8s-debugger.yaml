@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: k8s-debugger
-        image: docker.io/mouhamedali/k8s-debugger:1.0.0-202305291659-815a0fd # {"$imagepolicy": "fluxv2-tutorial-deployment:k8s-debugger-policy"}
+        image: docker.io/mouhamedali/k8s-debugger:1.1.0-202305291710-014c11f # {"$imagepolicy": "fluxv2-tutorial-deployment:k8s-debugger-policy"}
         ports:
         - containerPort: 8080
         env:
