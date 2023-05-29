@@ -42,10 +42,9 @@ metadata:
     app: k8s-debugger
   name: k8s-debugger-service
 spec:
- type: NodePort
   selector:
     app: k8s-debugger
+  type: NodePort
   ports:
-    - nodePort: 30163
-      port: 8080 
+    - port: 80
       targetPort: 8080
